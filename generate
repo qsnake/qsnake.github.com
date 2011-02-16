@@ -3,7 +3,6 @@
 import os
 import hashlib
 
-from django.utils.encoding import smart_str
 from jinja2 import Environment, FileSystemLoader
 
 def md5_filter(value):
@@ -26,5 +25,4 @@ for template in templates:
     print "Processing '%s'" % template
     name = os.path.splitext(template)[0]
     s = t.render({name + "_active": "active"})
-    s = smart_str(s)
     open(template, "w").write(s)
