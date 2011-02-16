@@ -1,9 +1,9 @@
-SymPy webpages
-==============
+Qsnake webpages
+===============
 
-These are SymPy webpages served at:
+These are Qsnake webpages served at:
 
-http://sympy.org/
+http://qsnake.com/
 
 using github. To modify them, edit the templates in the ``templates`` dir and::
 
