@@ -13,10 +13,6 @@ env.filters["md5"] = md5_filter
 
 templates = [
     "index.html",
-    "download.html",
-    "docs.html",
-    "support.html",
-    "screenshots.html",
     "development.html",
     ]
 
