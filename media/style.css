@@ -10,7 +10,7 @@ a { -moz-outline: none; }
 
 body {
   color: #222;
-  background: #e4ebe4;
+  background: #66E275;
   font-family: helvetica, arial, sans-serif;
 }
 
@@ -53,10 +53,10 @@ hr {
 
 #sidebar h3 {  
   padding: 8px 12px;
-  background: #3B5526;
+  background: #008110;
   color: #FFF;
   font-weight: bold;
-  border-bottom: 5px solid #81B953;
+  border-bottom: 5px solid #008110;
 }
 
 
